@@ -65,19 +65,19 @@ pip install -r requirements.txt
 ### Training Pipeline
 
 ```bash
-# 1. Self-Supervised Pretraining (Optional, ~1 hour)
+# 1. Self-Supervised Pretraining 
 python training/pretrain_ssrt.py
 
-# 2. Adversarial Training (~2 hours)
+# 2. Adversarial Training 
 python training/adversarial_train.py
 
-# 3. Multi-Attack Fine-tuning (~30 minutes)
+# 3. Multi-Attack Fine-tuning 
 python training/finetune_attacks.py
 
-# 4. Evaluation (~20 minutes)
+# 4. Evaluation 
 python evaluation/evaluate.py
 
-# 5. Certification (~30 minutes, use small sample size)
+# 5. Certification 
 python evaluation/certification.py
 ```
 
@@ -148,3 +148,4 @@ AMSDN/
 - **PGD Attack:** Madry et al., "Towards Deep Learning Models Resistant to Adversarial Attacks" (ICLR 2018)
 - **FPN:** Lin et al., "Feature Pyramid Networks for Object Detection" (CVPR 2017)
 - **ConvNeXt:** Liu et al., "A ConvNet for the 2020s" (CVPR 2022)
+
