@@ -1,0 +1,13 @@
+{
+    "clean_accuracy": 9.0,
+    "certified_accuracies": {
+        "radius_0.0": 9.0,
+        "radius_0.25": 7.000000000000001,
+        "radius_0.5": 3.0,
+        "radius_0.75": 0.0,
+        "radius_1.0": 0.0
+    },
+    "abstain_rate": 7.000000000000001,
+    "avg_certified_radius": 0.3417128984384548,
+    "median_certified_radius": 0.365070966557389
+}
