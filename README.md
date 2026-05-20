@@ -77,8 +77,6 @@ python training/finetune_attacks.py
 # 4. Evaluation 
 python evaluation/evaluate.py
 
-# 5. Certification 
-python evaluation/certification.py
 ```
 
 ### Google Colab
@@ -115,7 +113,7 @@ AMSDN/
 │
 ├── evaluation/
 │   ├── evaluate.py                # Comprehensive evaluation
-│   └── certification.py           # Randomized smoothing
+│           
 │
 ├── utils/
 │   └── helpers.py                 # Visualization & utilities
